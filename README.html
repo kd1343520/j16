@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            cursor: pointer;
+        }
+        #message {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+        #botton{
+           background-image: url('image1.png');
+           width:3px;
+           height:3px;
+           position:absolute;
+           top:50%;
+           left:80%;
+        }
+    </style>
+</head>
+<body>
+
+
+    <button id="botton"></button>
+    <img id="image" src="image3.png">
+    <div id="message">ハリネズミを探してみてください！</div>
+    <script>
+        // 不要なコードやボタンを削除し、唯一の画像 "image3.png" を表示するように変更
+    </script>
+</body>
+</html>
