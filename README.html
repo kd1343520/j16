@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +15,7 @@
             flex-direction: column;
         }
         img {
-            max-width: 100%;
+            width: 80%;
             max-height: 100%;
             cursor: pointer;
         }
@@ -23,16 +24,25 @@
             font-size: 16px;
             color: #333;
         }
-        
+        button{
+           position:absolute;
+            background:transparent;
+            border:none;
+            width: 14px;
+            height:20px;
+            top:38%;
+            left: 80%;
+        }
     </style>
 </head>
 <body>
-
-
+    <button onclick="Alert()"></button>
     <img id="image" src="image3.png">
     <div id="message">ハリネズミを探してみてください！</div>
     <script>
-        // 不要なコードやボタンを削除し、唯一の画像 "image3.png" を表示するように変更
+         function Alert() {
+            window.alert("見たなこれから繁殖します");
+         }
     </script>
 </body>
 </html>
